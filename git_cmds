@@ -1,0 +1,47 @@
+git init                             
+   4 clear                                
+   5 git add .\testing.py                 
+   6 python testing.py                    
+   7 git rm .\testing.py                  
+   8 git status                           
+   9 git rm --cached .\testing.py         
+  10 git status                           
+  11 clear                                
+  12 git add .\testing.py                 
+  13 git status                           
+  14 git commit -m "added testing file"   
+  15 git config --global user.email khu...
+  16 git config --global user.name khush  
+  17 git commit -m "added testing file"   
+  18 clear                                
+  19 git status                           
+  20 clear                                
+  21 git rm testing.py                    
+  22 git status                           
+  23 git restore testing.py               
+  24 git restore staged testing.py        
+  25 git restore staged testing.py        
+  26 clear                                
+  27 git status                           
+  28 rm tetsting.py                       
+  29 clear                                
+  30 git status                           
+  31 git restore testing.py               
+  32 git restore --staged testing.py      
+  33 git status                           
+  34 git restore testing.py               
+  35 clear                                
+  36 git status                           
+  37 rm testing.py                        
+  38 git status                           
+  39 git restore testing.py               
+  40 clear                                
+  41 history                              
+  42 clear      
+  git remote add origin https://gith...
+  71 git remote -v                        
+  72 git push -u origin master            
+  73 clear                                
+  74 git remote -v                        
+  75 git push origin master               
+  76 clear  
